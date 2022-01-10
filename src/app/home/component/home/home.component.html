@@ -1,0 +1,8 @@
+<app-header></app-header>
+
+<div class="container mt-4">
+    <!-- Attribute Binding -->
+    <app-book-card *ngFor="let item of books" [book]="item"></app-book-card>
+</div>
+
+<app-footer></app-footer>

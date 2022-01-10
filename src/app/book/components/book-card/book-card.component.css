@@ -1,0 +1,8 @@
+img {
+  width: 14rem;
+  height: 10rem;
+}
+.book-elements {
+  display: flex;
+  justify-content: space-between;
+}
